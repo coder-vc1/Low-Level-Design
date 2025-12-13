@@ -107,6 +107,7 @@ If asked "How do we scale this?", provide these points:
 3.  **Database Sharding:** Shard the database based on the first character of the short code or hash of the user ID to distribute load.
 4.  **Analytics:** Use Kafka to async push click events (analytics) to a data warehouse, so writing stats doesn't slow down the redirection speed.
 
+-----
 ### 10\) Code Implementation
 
 #### A. Entity & DTOs
@@ -344,4 +345,5 @@ public class UrlShortenerApplication {
     }
 }
 ```
+
 
