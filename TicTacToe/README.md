@@ -232,7 +232,6 @@ We follow the standard **Spring Boot MVC** layered architecture:
 #### A. Entities & Enums
 
 ```java
-package com.tictactoe.model;
 
 public enum Piece { X, O }
 
@@ -240,10 +239,6 @@ public enum GameStatus { IN_PROGRESS, DRAW, WINNER }
 ```
 
 ```java
-package com.tictactoe.model;
-
-import lombok.Data;
-
 @Data
 public class Player {
     private String id;
@@ -259,9 +254,6 @@ public class Player {
 ```
 
 ```java
-package com.tictactoe.model;
-
-import lombok.Data;
 
 @Data
 public class Board {
@@ -304,11 +296,6 @@ public class Board {
 ```
 
 ```java
-package com.tictactoe.model;
-
-import lombok.Data;
-import java.util.List;
-import java.util.UUID;
 
 @Data
 public class Game {
@@ -340,10 +327,6 @@ public class Game {
 #### B. DTOs
 
 ```java
-package com.tictactoe.dto;
-
-import lombok.AllArgsConstructor;
-import lombok.Data;
 
 @Data
 @AllArgsConstructor
@@ -357,10 +340,6 @@ public class MoveRequest {
 #### C. Repository (Interface + In-Memory Impl)
 
 ```java
-package com.tictactoe.repo;
-
-import com.tictactoe.model.Game;
-import java.util.Optional;
 
 public interface GameRepository {
     Game save(Game game);
@@ -369,13 +348,6 @@ public interface GameRepository {
 ```
 
 ```java
-package com.tictactoe.repo;
-
-import com.tictactoe.model.Game;
-import org.springframework.stereotype.Repository;
-import java.util.Map;
-import java.util.Optional;
-import java.util.concurrent.ConcurrentHashMap;
 
 @Repository
 public class InMemoryGameRepository implements GameRepository {
@@ -397,12 +369,6 @@ public class InMemoryGameRepository implements GameRepository {
 #### D. Service
 
 ```java
-package com.tictactoe.service;
-
-import com.tictactoe.dto.MoveRequest;
-import com.tictactoe.model.*;
-import com.tictactoe.repo.GameRepository;
-import org.springframework.stereotype.Service;
 
 @Service
 public class GameService {
@@ -460,13 +426,6 @@ public class GameService {
 #### E. Controller
 
 ```java
-package com.tictactoe.controller;
-
-import com.tictactoe.dto.MoveRequest;
-import com.tictactoe.model.Game;
-import com.tictactoe.service.GameService;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/game")
@@ -493,14 +452,6 @@ public class GameController {
 #### F. Main Method (Simulation Demo)
 
 ```java
-package com.tictactoe;
-
-import com.tictactoe.dto.MoveRequest;
-import com.tictactoe.model.Game;
-import com.tictactoe.service.GameService;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
 public class TicTacToeApplication {
@@ -552,4 +503,5 @@ public class TicTacToeApplication {
 ```
 
 -----
+
 
