@@ -1,4 +1,4 @@
-Design code Readme files:
+# Applications - LLD - Design - Readme - Files:
 
 1. URL Shortener App:  https://github.com/coder-vc1/LowLevelDesign/blob/main/URL_Shortener_App/README.md
 
@@ -22,8 +22,8 @@ Design code Readme files:
 
 11. Social Media Application: https://github.com/coder-vc1/Low-Level-Design/blob/main/Projects/Social-Media-Application.md
 
-
-Additional References:
+---
+# Additional References:
 
 1. LLD: https://github.com/ashishps1/awesome-low-level-design
 
