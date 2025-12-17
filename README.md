@@ -21,3 +21,9 @@ Design code Readme files:
 10. Video-Streaming-Service (YouTube): https://github.com/coder-vc1/Low-Level-Design/blob/main/Projects/Video-Streaming-Service.md
 
 11. Social Media Application: https://github.com/coder-vc1/Low-Level-Design/blob/main/Projects/Social-Media-Application.md
+
+
+Additional References:
+LLD: https://github.com/ashishps1/awesome-low-level-design
+System design: https://github.com/ashishps1/awesome-system-design-resources
+Behavioral: https://github.com/ashishps1/awesome-behavioral-interviews
