@@ -1,8 +1,6 @@
-Here is the **Architectural README** (HLD + LLD) tailored for your interview preparation. 
-
 -----
-
-# README: Tic-Tac-Toe System Design (LLD)
+# LLD of Tic-Tac-Toe Game in Java
+---
 
 ## 1\) Rough Flow of Program
 
@@ -503,5 +501,6 @@ public class TicTacToeApplication {
 ```
 
 -----
+
 
 
