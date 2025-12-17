@@ -1,5 +1,5 @@
 ---
-# Async Job Scheduler in Java
+# LLD of Async Job Scheduler in Java
 ---
 
 A lightweight, thread-safe, in-memory Job Scheduler designed to manage concurrent task execution. This project demonstrates core low-level system design concepts including state management, concurrency control, and thread pooling.
