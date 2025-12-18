@@ -360,5 +360,16 @@ ROW_NUMBER() OVER (ORDER BY score DESC, updated_at ASC)
 
 ```
 
----
+# Which Ranking Method Do We Prefer?
+
+The industry standard depends on **User Experience (UX)** vs. **Technical Requirements**.
+
+| Method | Verdict | Why? (The Interview Explanation) |
+| --- | --- | --- |
+| **`RANK()`** | **Preferred (UX)** | **Fairness.** In competitive gaming, if User A and User B both score 1000, they both expect to see "Rank #1". Crucially, if 10 people tie for Rank 1, the next person (score 999) is truly the 11th best player, not the 2nd best. `RANK()` reflects this accurately (1, 1 ... 11). |
+| **`DENSE_RANK()`** | **Rare** | It creates a false sense of closeness. If 100 people are Rank 1, telling the next person they are "Rank 2" implies they are the runner-up, even though 100 people beat them. Used mostly for "Reward Tiers" (e.g., Gold, Silver, Bronze), not numerical placement. |
+| **`ROW_NUMBER()`** | **Internal Only** | **Unfair for UI.** It forces an arbitrary loser. If I have the same score as you, but the system says I am Rank 2 and you are Rank 1 just because my name starts with 'Z', I will be angry. **However, we USE this internally for Pagination.** |
+
+**Conclusion:** We display `RANK()` to the user for fairness, but we often use `ROW_NUMBER()` logic in the backend to handle unique pagination fetching.
+
 ---
