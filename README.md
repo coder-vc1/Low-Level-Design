@@ -6,29 +6,31 @@
 
 3. UML Class Diagram: https://github.com/coder-vc1/Low-Level-Design/blob/main/Projects/UML.md
 
-4. TicTacToe App: https://github.com/coder-vc1/LowLevelDesign/blob/main/TicTacToe/README.md
+4. Leaderboard design (Game): https://github.com/coder-vc1/Low-Level-Design/blob/main/Projects/Leaderboard-Game.md
 
-5. Custom Logger: https://github.com/coder-vc1/LowLevelDesign/blob/main/CustomLogger/README.md
+5. TicTacToe App: https://github.com/coder-vc1/LowLevelDesign/blob/main/TicTacToe/README.md
 
-6. Snake and Ladder Game (NOT SnakeLadderDesign) : https://github.com/coder-vc1/LowLevelDesign/tree/main/SnakeLadderGame#readme
+6. Custom Logger: https://github.com/coder-vc1/LowLevelDesign/blob/main/CustomLogger/README.md
 
-7. Job Scheduler: https://github.com/coder-vc1/LowLevelDesign/tree/main/SchedulerDriver#readme
+7. Snake and Ladder Game (NOT SnakeLadderDesign) : https://github.com/coder-vc1/LowLevelDesign/tree/main/SnakeLadderGame#readme
 
-8. Parking Lot System: https://github.com/coder-vc1/Low-Level-Design/tree/main/Parking#readme
+8. Job Scheduler: https://github.com/coder-vc1/LowLevelDesign/tree/main/SchedulerDriver#readme
 
-9. Food Ordering Application: https://github.com/coder-vc1/Low-Level-Design/blob/main/Projects/FoodOrderingApplication.md
+9. Parking Lot System: https://github.com/coder-vc1/Low-Level-Design/tree/main/Parking#readme
 
-10. Payment Processing System: https://github.com/coder-vc1/Low-Level-Design/blob/main/Projects/PaymentProcessingSystem.md
+10. Food Ordering Application: https://github.com/coder-vc1/Low-Level-Design/blob/main/Projects/FoodOrderingApplication.md
 
-11. Ride Sharing System: https://github.com/coder-vc1/Low-Level-Design/blob/main/Projects/Ride-Sharing-System.md
+11. Payment Processing System: https://github.com/coder-vc1/Low-Level-Design/blob/main/Projects/PaymentProcessingSystem.md
 
-12. Video-Streaming-Service (YouTube): https://github.com/coder-vc1/Low-Level-Design/blob/main/Projects/Video-Streaming-Service.md
+12. Ride Sharing System: https://github.com/coder-vc1/Low-Level-Design/blob/main/Projects/Ride-Sharing-System.md
 
-13. Social Media Application: https://github.com/coder-vc1/Low-Level-Design/blob/main/Projects/Social-Media-Application.md
+13. Video-Streaming-Service (YouTube): https://github.com/coder-vc1/Low-Level-Design/blob/main/Projects/Video-Streaming-Service.md
 
-14. IRCTC Ticket Booking System: https://github.com/coder-vc1/Low-Level-Design/blob/main/Projects/IRCTC-Ticket-Booking-System.md
+14. Social Media Application: https://github.com/coder-vc1/Low-Level-Design/blob/main/Projects/Social-Media-Application.md
 
-15. BookMyShow : https://github.com/coder-vc1/Low-Level-Design/blob/main/Projects/BookMyShow.md
+15. IRCTC Ticket Booking System: https://github.com/coder-vc1/Low-Level-Design/blob/main/Projects/IRCTC-Ticket-Booking-System.md
+
+16. BookMyShow : https://github.com/coder-vc1/Low-Level-Design/blob/main/Projects/BookMyShow.md
 
 ---
 # Additional References:
